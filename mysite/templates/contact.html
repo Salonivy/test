@@ -1,0 +1,26 @@
+{%extends 'base.html'%}
+{%block title%}
+Contact page
+{%endblock title%}
+
+{%block body%}
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+  <label for="fname">Middle name:</label>
+  <input type="text" id="mname" name="mname" value=""><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="age">Age:</label>
+  <input type="text" id="age" name="age" value="">
+  <label for="area">Area:</label>
+  <input type="text" id="area" name="area" value=""><br><br>
+  <label for="mobileno">Mobile No:</label>
+  <input type="text" id="mobileno" name="mobileno" value=""><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" value=""><br><br>
+  <label for="message">Message:</label>
+  <input type="text" id="message" name="message" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+{%endblock body%}
